@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans');
+body {
+    font-family: "Balsamiq Sans";
+    color: snow;
+    background: url(https://raw.githubusercontent.com/Rohtia/FCC_ResponsiveWeb/main/TechnicalDocumentation/yarns.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  
+  #header {
+    text-align: center;
+    color: #EFCDD6;
+    font-size: 30px;
+  }
+  
+  #navbar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(68,102,139, .8);
+    overflow: hidden;  
+  }
+  #navbar li {
+    list-style-type: none;
+      
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 5px 5px 5px;
+  }
+  
+  #main-doc {
+    
+    margin: 175px 30px 30px 30px;
+    max-width: 900px;
+  }
+  
+  .main-section {
+    padding: 10px;
+  }
+  
+  .code {
+    color: black;
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgb(219,215,214, 0.7);
+  }
+  .projTypes {
+    width: 75%;
+  }
+  
+  #Crafts {
+    background-color: rgb(79, 42, 50, 0.4);
+  }
+  #Tools {
+    background-color: rgb(6,30,55, 0.5);
+  }
+  
+  #Fibers {
+    background-color: rgb(79,42,50, 0.4);
+  }
+  
+  #Techniques {
+    background-color: rgb(6, 30, 55, 0.5);
+  }
+  
+  #Projects {
+    background-color: rgb(79,42,50, 0.4);
+  }
+  
+  @media (min-width: 400px) {
+    #navbar {   
+      width: 150px;
+      height: 100%;   
+    }
+    #navbar a {
+        display: inline;
+        float: none;
+        
+    }
+    #main-doc {
+      margin-top: 70px;
+      margin-left: 160px;
+    }  
+  }
