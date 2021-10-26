@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: papyrus;
+   
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  }
+  h1 {
+    text-align: center;
+    font-size: 5em;
+    color:pink;
+    font-family: Papyrus;
+  }
+  
+  .img-div {
+    text-align: center;
+  }
+  
+  .image {
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    width: 500px;
+    
+  }

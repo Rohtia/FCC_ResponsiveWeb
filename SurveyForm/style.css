@@ -1,0 +1,35 @@
+body {
+    background-color: #a490de;
+    font-size: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #271852;
+  }
+  
+  .description {
+    text-align: center;
+  }
+  .form {
+    background-color: #422f7a;
+    margin: auto;
+    width: 80%;
+    color: white;
+  }
+  
+  .survey-form {
+    padding: 25px;
+  }
+  
+  textarea {
+    width: 75%;
+  }
+  
+  #submit {
+    font-size: 20px;
+    background-color: #b19744;
+    padding: 5px;
+    
+  }

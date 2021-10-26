@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link src="style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <h1 id="title" class="title">Gaming systems</h1>
+
+ <p id="description" class="description">Are you interested in trying new TTRPG systems?</p>
+
+<div class="form">
+<form id="survey-form" class="survey-form">
+  <p><label for="name" id="name-label">Name/username: </label><br>
+    <input type="text" id="name" class="name" placeholder="Your name" required></p>
+  
+  <p><label for="email" id="email-label">Email: </label><br>
+    <input type="email" id="email" class="email" placeholder="Your email" required></p>
+  
+  <p><label for="number" id="number-label">How old are you? </label>(optional)<br>
+    <input type="number" id="number" class="number" min="18" max="100" placeholder="Your age"></p>
+  
+  <p><label for="dropdown">Have you played TTRPGs before? If so, what was the last one you played?</label><br>
+    <select id="dropdown">
+      <option>I have never played</option>
+      <option>Dungeons & Dragons 5e</option>
+      <option>Dungeons & Dragons (other edition)</option>
+      <option>Pathfinder 1e</option>
+      <option>Pathfinder 2e</option>
+      <option>Call of Cthulhu</option>
+      <option>Vampire the Masquerade</option>
+      <option>Masks</option>
+      <option>Star Trek</option>
+      <option>Star Wars</option>
+      <option>Fate</option>
+      <option>Other</option>
+    </select></p>
+  
+  <p><label for="role">What is your preferred role?</label></br>
+    <input type="radio" name="role" value="player">Player</input>
+    <input type="radio" name="role" value="gm">DM/GM</input>
+    <input type="radio" name="role" value="play_gm">Player or DM/GM</input>
+  </p>
+
+  <p><label for="games">Which games would you like to play?</label><br>
+    <input type="checkbox" value="dnd5"> Dungeons & Dragons 5e</input><br>
+    <input type="checkbox" value="dndO"> Dungeons & Dragons (other edition)</input><br>
+    <input type="checkbox" value="coc"> Call of Cthulhu</input><br>
+    <input type="checkbox" value="pf1"> Pathfinder 1e</input><br>
+    <input type="checkbox" value="pf2"> Pathfinder 2e</input><br>
+    <input type="checkbox" value="vtm"> Vampire the Masquerade</input><br>
+    <input type="checkbox" value="masks"> Masks</input><br>
+    <input type="checkbox" value="trek"> Star Trek</input><br>
+    <input type="checkbox" value="wars"> Star Wars</input><br>
+    <input type="checkbox" value="fate"> Fate</input><br>
+    <input type="checkbox" value="other"> Other system</input>
+  </p>
+
+  <p>If you listed 'Other', or have additional comments, please list them below.</p>
+    <textarea></textarea>
+  
+  <p><button type="submit" id="submit">Submit</button></p>
+  
+</form>
+</div>
+    </body>
+</html>
